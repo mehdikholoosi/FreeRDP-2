@@ -13,11 +13,11 @@ name: "CodeQL"
 
 on:
   workflow_dispatch:
-    branches: [ master, stable* ]
+    branches: [ My-master, stable* ]
   push:
-    branches: [ "master", "stable*" ]
+    branches: [ "My-master", "stable*" ]
   pull_request:
-    branches: [ "master", "stable*" ]
+    branches: [ "My-master", "stable*" ]
   schedule:
     - cron: '41 2 * * 2'
 
